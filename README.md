@@ -55,3 +55,4 @@ npm init
 npm install mongodb
 npm install csv-parser
 ```
+**The charts are obtained based on the dataset provided fot hackathon, no external api has been used**
