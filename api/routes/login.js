@@ -25,8 +25,12 @@ MongoClient.connect(url,function(err,client){
       const db = client.db(dbname);
       const collection = db.collection(collname);
       //find document having the given username and password
-      collection.findOne({"username" : username , "password":password}).then(()=>{
-           res.send("found");
+      collection.findOne({"username" : username , "password":password}).then((response)=>{
+          if(response == null){
+            res.send("error!");
+          }else{
+            res.send("found");
+          }    
       }).catch(()=>{
           res.send("error!");
       })
