@@ -1,0 +1,41 @@
+.form{
+    width:40%;
+    padding-left:3%;
+    margin-top:2%;
+    }
+
+
+
+.show{
+    width:80%;
+    border:3px solid black;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3%;
+}
+
+.dot{
+    border-top:dotted 1px;
+}
+
+.dash{
+    border-top:dashed 2px;
+}
+
+#label{
+    padding-bottom: 1%;
+}
+
+#label1{
+    padding-bottom: 1%;
+    padding-top:1%;
+}
+
+#prog{
+    margin-top:1%;
+}
+
